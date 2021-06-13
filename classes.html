@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes taking app</title>
+    <script type="text/javascript" src="./clases.js"></script>
+    <link rel="stylesheet" href="./clases.css">
+</head>
+<body>
+    <p class="heading">Take a note</p>
+    <p class="text">Enter the topic of note</p>
+    <input type="text" id="topic" placeholder="Enter topic" onfocus="this.style.backgroundColor='gray'"required><br>
+    <p class="text">Enter the composition of note</p>
+    <input type="text" id="composition" placeholder="Enter composition " required><br><br>
+    <input type="submit" id="but1" onclick="butt()"></input><br><br>
+    <div class="shown">
+	  <p id="head">All time notes     .</p>
+	  <button id="show" onclick="show()">   Show</button>
+	</div>
+    <div id="content"></div>
+
+
+</body>
+</html>

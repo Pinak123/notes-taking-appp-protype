@@ -1,0 +1,53 @@
+.heading{
+     font-size: 30px;
+     text-align: center;
+     color: rgba(119, 77, 77, 0.521);
+     background-color:aqua;
+     text-decoration: dashed;
+     text-decoration-color: aliceblue;
+
+}
+#composition{
+    width: 50%;
+    height: 50px;
+}
+.note{
+    font-weight:bold;
+    font-size: 35px;
+    color: black;
+}
+.topic,.compose{
+    font-weight:bold;
+    font-size:30px;
+    
+}
+.topic{
+    color:red;
+}
+.compose{
+    color:orange;
+}
+#head{
+    font-size:40px;
+    color:black;
+    text-decoration:dashed solid black;
+    text-align: center;
+	display:inline-block;
+}
+#content{
+    text-align: center;
+    
+}
+button{
+    color:white;
+    background-color:blue;
+}
+input {
+    background-color:white;
+}
+.shown{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
