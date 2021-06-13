@@ -27,14 +27,14 @@
     })
     // document.getElementById('content').innerHTML=y;
     shows=y;
-    if(shows=undefined){
-        shows='';
-    };
+    // if(shows=undefined){
+    //     shows='';
+    // };
 }
 function show(){
-    if(shows=undefined){
-        shows='';
-    };
+    // if(shows=undefined){
+    //     shows='';
+    // };
     document.getElementById('content').innerHTML=shows;
 }
 
